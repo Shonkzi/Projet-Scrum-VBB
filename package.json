@@ -1,0 +1,25 @@
+{
+  "name": "bricoloop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "lint": "eslint . --max-warnings=0",
+    "test": "vitest run",
+    "check": "npm run lint && npm test"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "globals": "^16.5.0",
+    "eslint": "^10.13.0",
+    "supertest": "^7.3.1",
+    "vitest": "^4.1.8"
+  }
+}
