@@ -1,6 +1,6 @@
-# BricoLoop
+Equipe 7
 
-**Équipe 7**
+## Présentation
 
 BricoLoop est une plateforme collaborative qui favorise le partage d’outils entre voisins. Une perceuse, une ponceuse ou un taille-haie sont souvent utilisés seulement quelques heures par an. La plateforme permet de les mettre à disposition de la communauté locale afin de réduire les achats inutiles et encourager l’économie de partage.
 
