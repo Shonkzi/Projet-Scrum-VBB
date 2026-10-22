@@ -1,23 +1,18 @@
 # BricoLoop
 
-API de démonstration pour le partage d’outils entre voisins, réalisée dans le cadre de l’atelier Scrum EPSI B3.
+**Équipe 7**
 
-## Équipe
+BricoLoop est une plateforme collaborative qui favorise le partage d’outils entre voisins. Une perceuse, une ponceuse ou un taille-haie sont souvent utilisés seulement quelques heures par an. La plateforme permet de les mettre à disposition de la communauté locale afin de réduire les achats inutiles et encourager l’économie de partage.
 
-- Nom de l’équipe : à compléter
-- Membres : à compléter avec les noms et prénoms
-- Dépôt : https://github.com/Shonkzi/Projet-Scrum-VBB
+L’application permet de rechercher des outils disponibles, de demander leur emprunt et de gérer les prêts grâce à un système de demandes et de validation par le propriétaire.
 
-### Rotation PO / Scrum Master
+## Rotation des rôles
 
-Compléter les noms réels au lancement. Le Product Owner change à chaque sprint et ne code pas pendant son sprint.
-
-| Séquence | Product Owner | Scrum Master |
+| Sprint | Product Owner | Développeurs |
 | --- | --- | --- |
-| Lancement | À compléter | — |
-| Sprint 1 | À compléter | À compléter |
-| Sprint 2 | À compléter | À compléter |
-| Sprint 3 | À compléter | À compléter |
+| Sprint 1 | Valentin | Benjamin, Bastien |
+| Sprint 2 | Benjamin | Valentin, Bastien |
+| Sprint 3 | Bastien | Valentin, Benjamin |
 
 ## Prérequis
 
@@ -33,7 +28,7 @@ npm start
 
 L’API écoute sur `http://localhost:3000` (ou le port défini par `PORT`).
 
-- `GET /health` vérifie que l’API répond et retourne `{ "status": "ok" }`.
+- `GET /health` retourne `{ "status": "ok" }` si l’API répond.
 - `GET /api/tools` retourne les outils de démonstration.
 
 ## Contrôles qualité
@@ -46,7 +41,7 @@ npm run check
 
 `npm run check` exécute le lint puis les tests.
 
-## Structure Sprint 0
+## Socle du Sprint 0
 
 - `src/app.js` configure les routes Express.
 - `src/server.js` démarre le serveur HTTP.
